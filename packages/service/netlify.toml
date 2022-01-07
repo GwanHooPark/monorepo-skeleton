@@ -1,5 +1,5 @@
 [build]
-  command = "yarn start:service"
+  command = "yarn build"
   publish = "dist"
 [build.environment]
   NODE_VERSION = "16.13.1"
