@@ -1,0 +1,37 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:all": "lerna run serve",
+    "start:service": "yarn workspace ppurio-service serve",
+    "start:admin": "yarn workspace ppurio-admin serve",
+    "start:mini": "yarn workspace ppurio-mini serve",
+    "kill:all": "npx kill-port 3000 8000",
+    "kill:admin": "npx kill-port 8000",
+    "kill:service": "npx kill-port 3000",
+    "build:all": "lerna run build",
+    "build:service": "yarn workspace ppurio-service build",
+    "build:admin": "yarn workspace ppurio-admin build",
+    "build:mini": "cd packages/mini-electron && npm i && yarn build:win64",
+    "clean": "lerna clean",
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-styled-components": "^2.0.2",
+    "lerna": "^4.0.0",
+    "webpack": "^5.65.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-jest": "^25.3.4",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.2.1"
+  }
+}

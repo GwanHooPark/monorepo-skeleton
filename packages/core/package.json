@@ -1,0 +1,14 @@
+{
+    "name": "@apps/core",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "node --experimental-vm-modules ../../node_modules/jest/bin/jest.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "swiper": "4.4.1",
+      "vue-awesome-swiper": "3"
+    }
+  }
+  
