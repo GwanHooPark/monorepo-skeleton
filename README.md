@@ -2,9 +2,9 @@
 > Vue.js 기반
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-[![Generic badge](https://img.shields.io/badge/nuxt-2.14.5-blue.svg)](https://shields.io/)
+<!-- [![Generic badge](https://img.shields.io/badge/vue-2.17-brightgreen)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/yarn-1.22.1-blue.svg)](https://shields.io/)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-11.0.0-yellow.svg)](https://conventionalcommits.org)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-11.0.0-yellow.svg)](https://conventionalcommits.org) -->
 
 ## 🔨 초기 설치
 ```bash

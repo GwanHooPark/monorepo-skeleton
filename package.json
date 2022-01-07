@@ -17,7 +17,7 @@
     "build:admin": "yarn workspace ppurio-admin build",
     "build:mini": "cd packages/mini-electron && npm i && yarn build:win64",
     "clean": "lerna clean",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "yarn install"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.7",
