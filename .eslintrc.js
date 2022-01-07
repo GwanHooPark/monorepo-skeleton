@@ -7,14 +7,15 @@ module.exports = {
   },
   env: {
     browser: true,
-    node: true
+    node: true,
+    jest: true
   },
   // https://github.com/standard/standard/blob/master/docs/RULES-en.md
-  extends: [        
+  extends: [
     'eslint:recommended',
     'plugin:vue/essential',
     'prettier',
-    'plugin:prettier/recommended',      
+    'plugin:prettier/recommended',
   ],
   plugins: [
       'prettier'
@@ -32,8 +33,8 @@ module.exports = {
             trailingComma: 'all',
             printWidth: 80,
             bracketSpacing: true,
-            arrowParens: 'avoid',          
-            endOfLine: 'auto',    
+            arrowParens: 'avoid',
+            endOfLine: 'auto',
           },
         ],
         'no-console': process.env.NODE_ENV === 'production' ? 'off' : 'off',

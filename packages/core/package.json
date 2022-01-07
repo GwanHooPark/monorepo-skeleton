@@ -2,7 +2,7 @@
     "name": "@apps/core",
     "version": "1.0.0",
     "scripts": {
-      "test": "node --experimental-vm-modules ../../node_modules/jest/bin/jest.js"
+      "test": "jest"
     },
     "author": "",
     "license": "ISC",
@@ -11,4 +11,3 @@
       "vue-awesome-swiper": "3"
     }
   }
-  
