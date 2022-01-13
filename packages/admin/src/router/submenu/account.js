@@ -9,7 +9,7 @@ const account = {
 	},
 	children: [
 		{
-			path: '/account/list',
+			path: '/',
 			meta: { breadCrumb: '아이디조회 및 관리', menuGroup: 'Account' },
 			component: () => import('@/views/account/AccountManage.vue'),
 		},
