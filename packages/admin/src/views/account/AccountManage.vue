@@ -610,6 +610,14 @@
 				</div>
 			</form>
 		</div>
+		<div>
+			<label for="example-datepicker">Choose a date</label>
+			<b-form-datepicker
+				id="example-datepicker"
+				v-model="value"
+				class="mb-2"
+			></b-form-datepicker>
+		</div>
 	</div>
 </template>
 

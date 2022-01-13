@@ -15,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import '../bootstrap/simplebar.min.js';
 export default {
 	install(Vue) {
-		//Vue.use(BootstrapVue);
+		Vue.use(BootstrapVue);
 		Vue.use(Fragment.Plugin);
 		Vue.use(globalComponents);
 	},
