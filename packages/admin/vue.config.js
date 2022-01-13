@@ -1,3 +1,4 @@
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
 	devServer: {
 		overlay: false,
@@ -8,5 +9,19 @@ module.exports = {
 				ws: true,
 			},
 		},
+	},
+	configureWebpack: {
+		entry: ['babel-polyfill', './src/main.js'],
+		plugins: [
+			new CopyWebpackPlugin({
+				patterns: [
+					{
+						from: __dirname + '/src/bootstrap',
+						to: 'bootstrap',
+						noErrorOnMissing: true,
+					},
+				],
+			}),
+		],
 	},
 };

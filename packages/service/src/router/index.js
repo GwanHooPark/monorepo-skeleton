@@ -25,6 +25,11 @@ const routes = [
 		name: 'Slide',
 		component: () => import('../views/Slide.vue'),
 	},
+	{
+		path: '/grid',
+		name: 'Grid',
+		component: () => import('../views/Grid.vue'),
+	},
 ];
 
 const router = new VueRouter({

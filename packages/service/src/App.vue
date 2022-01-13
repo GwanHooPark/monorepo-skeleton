@@ -8,6 +8,8 @@
 			<router-link to="/roulette"> roulette </router-link>
 			|
 			<router-link to="/slide"> slide </router-link>
+			|
+			<router-link to="/grid"> grid </router-link>
 		</div>
 		<router-view />
 	</div>
